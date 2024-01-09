@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: rgb(243, 195, 195); */
+}
+.left img{
+    width: 200px;
+    height: 50px;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: blue; */
+}
+.middle h3{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px;
+    color: #fff;
+}
+.right{
+    display: flex;
+    align-items: center;
+    
+}
+.right h3{
+    font-size:16px ;
+    font-weight: 500;
+    color: #fff;
+}
+.right button{
+    padding: 10px 12px;
+    border: none;
+    font-weight: 600;
+}
+.right-content{
+    margin-right: 50px;
+}
+.display{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    
+
+}
+.display h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.main-text{
+    color: #fff;
+    font-size: 100px;
+    font-weight: 500;
+    /* background-color: red; */
+}
+.main-text span{
+    font-size: 34px;
+    background-color: brown;
+    padding: 15px 40px;
+    text-align: center;
+    margin: 0 20px;
+    border-radius: 50px;
+}
+.image1{
+    width: 160px;
+    height: 230px;
+    position: absolute;
+    top: 50px;
+    left: 140px;
+    border-radius: 5px;
+}
+.image2{
+    width: 170px;
+    height: 240px;
+    position: absolute;
+    top: 250px;
+    left: 1040px;
+    border-radius: 5px;
+}
+.image3{
+    width: 270px;
+    height: 180px;
+    position: absolute;
+    top: 350px;
+    left: 340px;
+    border-radius: 5px;
+    z-index: -1;
+}
+.image4{
+    width: 270px;
+    height: 180px;
+    position: absolute;
+    top: 20px;
+    left: 800px;
+    border-radius: 5px;
+    z-index: -1;
+}
+.scroll{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    opacity: 0;
+}
+.icons{
+    /* background-color: blue; */
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    top: 500px;
+    left: 10px;
+}
+.icons i {
+
+    color: #fff;
+    opacity: 0;
+}
